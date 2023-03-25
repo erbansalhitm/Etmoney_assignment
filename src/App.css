@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+header.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    background-color: #009788;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.percentage-change {
+    color: #009788;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.seacrh-form .form-control {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Progresswidth {
+    height: 100%;
+    width: 50%;
+    background-color: #009788;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border-top: 1px solid #999;
+    padding: 0 7.5px;
+    display: flex;
+    z-index: 99;
+    background-color: #fff;
+    box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-menu .btn button {
+    width: 100%;
+    text-transform: capitalize;
+    min-width: auto;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-menu .btn:first-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.sorting-box .css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+    padding: 15px 15px 0px 15px;
+}
+
+.footer-menu .btn {
+    width: 50%;
+    padding: 10px 7.5px;
+    box-sizing: border-box;
+}
+
+.seacrh-form .form-control input,
+.seacrh-form .css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
+    height: 40px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.change-value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seacrh-form .form-control div {
+    width: 100%;
+}
+
+.filterbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.filterbox .box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.filterbox .box h4 {
+    margin: 0 0 10px;
+}
+
+.filterbox .box input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.filterbox .box button {
+    border: 1px solid #ddd;
+    width: 80px;
+    margin: 10px auto 0;
+    background-color: #999;
+    color: #fff;
+}
+
+body .css-bhp9pd-MuiPaper-root-MuiCard-root {
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 1px -3px rgba(0, 0, 0, 0.2), 0px 4px 1px -3px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-box h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.card-box table tr th:first-child,
+.card-box table tr td:first-child {
+    padding-left: 0;
+}
+
+.card-box table tr th:last-child,
+.card-box table tr td:last-child {
+    padding-right: 0;
+}
+
+.seacrh-form .form-control .search-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inner-page {
+    padding-top: 70px;
 }
